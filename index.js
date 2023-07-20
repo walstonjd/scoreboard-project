@@ -61,9 +61,9 @@ function rstGame() {
     
     // Reset the timer
     clearInterval(timerInterval);
-    var fiveMinutes = 60 * 24;
+    var tfMinutes = 60 * 24;
     display.textContent = "24:00"; // Reset the timer display to 24:00
-    startTimer(fiveMinutes, display);
+    startTimer(tfMinutes, display);
 }
 
 function guestFoulIncrm() {
@@ -93,7 +93,7 @@ function startTimer(duration) {
 
 
 window.onload = function () {
-    var fiveMinutes = 60 * 24,
+    var tfMinutes = 60 * 24,
         display = document.querySelector('#time');
-    startTimer(fiveMinutes, display);
+    startTimer(tfMinutes, display);
 };
