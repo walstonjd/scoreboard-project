@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    background-color: gainsboro;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #708090;
+    border: 2px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.scoreboard {
+    margin: 10px;
+}
+
+h3 {
+    color: #EEE;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    margin: auto;
+    line-height: 70px;
+}
+
+.score {
+    color: white;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    margin: auto;  
+    line-height: 115px;  
+}
+
+.foul {
+    color: white;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    margin: auto;  
+}
+
+.num-box {
+    background: black;
+    width: 155px;
+    height: 110px;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+.num-box2 {
+    background: black;
+    width: 155px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+
+.points {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    color: #EEE;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px
+}
+
+.point-border {
+    background-color: black !important;
+    border-radius: 5px;
+    border: 2 solid;
+    width: 40px;
+    height: 32px;
+}
+
+#new-game {
+    justify-content: center;
+    display: flex;
+    margin-left: -80px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+    font-style: normal;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 24px;
+}
+
+.f-btn {
+    margin: 10px 0 10px 45px;
+    
+}
+
+.time-txt {
+    margin-top: 28px;
+    color: #708090;
+    text-align: center;
+}
+
+#time {
+    color: #EEE;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 50px;
+    margin-top: 5px;
+}
+
+.timer-bg {
+    background-color: black !important;
+    border-radius: 5px;
+    border: 2 solid;
+    width: 180px;
+    height: 55px;
+    margin-left: -100px;
+    
+}
